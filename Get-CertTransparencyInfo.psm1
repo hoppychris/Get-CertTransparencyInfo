@@ -119,7 +119,7 @@ Function Get-CertTransparencyInfo {
 			   [switch]$IncludeExpired
 		)
 		$SearchInfo = $SearchInfo -replace " ", "+"
-		$SearchInfo = $SearchInfo -replace "\*", "%"
+#		$SearchInfo = $SearchInfo -replace "\*", "%"
 		$script:currentdate = get-date
 		$script:crtsh = "https://crt.sh/"
 		if ($IncludeExpired.IsPresent) {
