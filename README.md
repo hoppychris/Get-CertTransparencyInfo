@@ -2,6 +2,8 @@
 All certificate information you need - a cmdlet to request / search all certificates info available for all published certificates - based on CTL info available from crt.sh
 
 (c) 2018 lucas-cueff.com Distributed under Artistic Licence 2.0 (https://opensource.org/licenses/artistic-license-2.0).
+## version 0.5 info
+This is where the fork happened --  This version adds checking the "not after" date but removes the wildcard translation -- * now just means * in the certificate name -- use % for wildcard searches.
 
 ## version 0.4 info
 fix JSON output issue with new crt.sh version
